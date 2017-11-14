@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/dko/.nvm/versions/node/v5.0.0/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js init
+
+PATH: 
+  /Users/dko/.nvm/versions/node/v5.0.0/bin:/Users/dko/.rbenv/shims:/Volumes/Macintosh\ HD/usr/local/bin:/Users/dko/.rbenv/bin:/usr/local/bin:./node_modules/.bin:/usr/local/go/bin:/Users/dko/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  5.0.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:121045:13)
+      at emitNone (events.js:67:13)
+      at Interface.emit (events.js:166:7)
+      at Interface._ttyWrite (readline.js:690:16)
+      at ReadStream.onkeypress (readline.js:105:10)
+      at emitTwo (events.js:87:13)
+      at ReadStream.emit (events.js:172:7)
+      at emitKeys (readline.js:1250:14)
+      at next (native)
+      at ReadStream.onData (readline.js:918:36)
