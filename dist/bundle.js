@@ -21327,6 +21327,7 @@ var _reactRedux = __webpack_require__(40);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Sister = function Sister(state) {
+  console.log(state);
   return _react2.default.createElement(
     'section',
     { className: 'sister' },
@@ -21345,7 +21346,7 @@ function mapStateToProps(state) {
   };
 }
 
-exports.default = (0, _reactRedux.connect)(mapStateToProps)(Sister);
+exports.default = (0, _reactRedux.connect)()(Sister);
 
 /***/ })
 /******/ ]);
